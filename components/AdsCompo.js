@@ -3,7 +3,7 @@ import React from "react";
 export default function AdsCompo({ title, desc, img, css }) {
   return (
     <div className={`linear rounded-[8px] ${css} py-[3px] px-[3px] pt-[3.4px] `}>
-      <div className="bg-white py-[20px] w-[355px] px-[18px] rounded-[6px] flex items-center">
+      <div className="bg-white py-[20px] max-w-[100%] w-[355px] px-[18px] rounded-[6px] flex items-center">
         <div>
           <img src={img} alt="" />
         </div>
