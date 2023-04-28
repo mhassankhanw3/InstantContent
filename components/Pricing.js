@@ -10,7 +10,7 @@ export default function Pricing() {
           Buy a Plan of your choice
         </h2>
       </div>
-      <div className="flex flex-wrap items-center justify-between max-w-[100%] w-[60%] mx-auto mt-[90px] ">
+      <div className="flex flex-wrap items-center justify-center gap-10 max-w-[100%] w-[60%] mx-auto mt-[90px] ">
         <div className="border border-[#E5E5E5] rounded-[8px] p-[30px] max-w-[100%] w-[434px] ">
           <div className="flex flex-wrap items-center max-w-[100%] justify-between">
             <div>
