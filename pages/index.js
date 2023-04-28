@@ -9,6 +9,7 @@ import InstantSeo from "@/components/InstantSeo";
 import InstantAcademic from "@/components/InstantAcademic";
 import Pricing from "@/components/Pricing";
 import Hero from "@/components/Hero";
+import Features from "@/components/Features";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <Features />
       <InstantAds />
       <InstantSocial />
       <InstantPieces />

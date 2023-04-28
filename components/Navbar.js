@@ -15,28 +15,28 @@ export default function Navbar() {
       </div>
       <div>
         <ul className="sm:flex lg:flex md:hidden flex-wrap items-center hidden  ">
-          <Link href="/" legacyBehaviour>
+          <Link href="/" legacyBehavior>
             <li className="mx-[15px]">
               <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
                 Home
               </a>
             </li>
           </Link>
-          <Link href="/" legacyBehaviour>
+          <Link href="/" legacyBehavior>
             <li className="mx-[15px]">
               <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
                 Ads
               </a>
             </li>
           </Link>
-          <Link href="/" legacyBehaviour>
+          <Link href="/" legacyBehavior>
             <li className="mx-[15px]">
               <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
                 Content
               </a>
             </li>
           </Link>
-          <Link href="/" legacyBehaviour>
+          <Link href="/" legacyBehavior>
             <li className="mx-[15px]">
               <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
                 Social Media Post

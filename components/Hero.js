@@ -5,7 +5,7 @@ import { ArrowRightOutlined } from "@ant-design/icons";
 export default function Hero() {
   return (
     <div className="bubble">
-      <div className="mx-auto max-w-[100%] text-center mt-[100px] w-[950px] ">
+      <div className="mx-auto max-w-[100%] text-center mt-[60px] w-[550px] ">
         <h1 className="text-[#232C61] text-center text-[42px] font-bold ">
           Generate instant{" "}
           <span className="text-[#24BF99] text-center text-[42px] font-bold ">
