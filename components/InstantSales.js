@@ -11,7 +11,7 @@ export default function InstantSales() {
           desc="Cut writing times by 80% so you can focus more on the projects you love."
         />
       </div>
-      <div className="mt-[70px] flex items-center flex-wrap justify-center w-[80%] max-w-full mx-auto ">
+      <div className="mt-[70px] flex items-center flex-wrap justify-center w-[1200px] max-w-[100%] mx-auto ">
         <div className="max-w-full my-[5px] sm:my-[10px]  linear-bg  md:my-[10px]">
           <AdsCompo
             title="Sales Pitch"

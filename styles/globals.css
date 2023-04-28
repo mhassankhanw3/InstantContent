@@ -30,8 +30,6 @@
   transition: 1s !important;
 }
 
-
-
 .bubble::before {
   margin-top: 60px;
   content: "";
@@ -43,5 +41,5 @@
   z-index: -1;
   width: 100%;
   background-color: #e9fbff;
-  height: 60%;
+  max-height: 500px !important;
 }

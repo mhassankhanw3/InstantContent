@@ -16,15 +16,15 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
-      {/* <Features /> */}
-      {/* <InstantAds /> */}
-      {/* <InstantSocial /> */}
-      {/* <InstantPieces /> */}
-      {/* <InstantSales /> */}
-      {/* <InstantSeo /> */}
-      {/* <InstantAcademic /> */}
+      <Navbar />
+      <Hero />
+      <Features />
+      <InstantAds />
+      <InstantSocial />
+      <InstantPieces />
+      <InstantSales />
+      <InstantSeo />
+      <InstantAcademic />
       <Pricing />
     </>
   );
