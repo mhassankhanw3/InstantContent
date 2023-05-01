@@ -4,7 +4,7 @@ import AdsCompo from "./AdsCompo";
 
 export default function InstantAcademic() {
   return (
-    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[0px] ">
+    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[20px] ">
       <div className="sm:px-[0px] px-[10px] ">
         <InstantHeadings
           title="Instant Content helps create Academic Content"

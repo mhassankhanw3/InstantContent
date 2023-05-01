@@ -4,7 +4,7 @@ import InstantHeadings from "./InstantHeadings";
 
 export default function InstantAds() {
   return (
-    <div className="mx-auto max-w-[100%] w-[100%] sm:mt-[150px] mt-[50px] sm:px-[0px] px-[0px] ">
+    <div className="mx-auto max-w-[100%] w-[100%] sm:mt-[150px] mt-[50px] sm:px-[0px] px-[20px] ">
       <div>
         <InstantHeadings
           title="Instant Content helps create Ads copy"

@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className="flex flex-wrap bg-white items-center justify-between max-w-[100%] mx-auto py-[20px] px-[50px] ">
+      <nav className="flex flex-wrap bg-white items-center justify-between max-w-[100%] mx-auto py-[20px] sm:px-[50px] px-[20px] ">
         <div>
           <img
             className="cursor-pointer"

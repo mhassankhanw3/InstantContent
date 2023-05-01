@@ -4,7 +4,7 @@ import AdsCompo from "./AdsCompo";
 
 export default function InstantSeo() {
   return (
-    <div className="sm:mt-[150px] mt-[50px]  ">
+    <div className="sm:mt-[150px] mt-[50px] sm:px-[20px] px-[20px] ">
       <div className="px-[14px] sm:px-[0px]">
         <InstantHeadings
           title="Instant Content helps create SEO-Optimized Content"

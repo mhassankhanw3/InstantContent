@@ -4,7 +4,7 @@ import AdsCompo from "./AdsCompo";
 
 export default function InstantPieces() {
   return (
-    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-0 max-w-full ">
+    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[20px] max-w-full ">
       <div>
         <InstantHeadings
           title="Instant Content helps create Content Pieces"
