@@ -4,7 +4,7 @@ import AdsCompo from "./AdsCompo";
 
 export default function InstantSales() {
   return (
-    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[20px] ">
+    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[0px] ">
       <div>
         <InstantHeadings
           title="Instant Content helps create Sales Copy"
@@ -12,7 +12,7 @@ export default function InstantSales() {
         />
       </div>
       <div className="sm:mt-[70px] mt-[20px] grid sm:grid-cols-3 grid-cols-none gap-4 sm:w-[1100px] w-[100%] max-w-[100%] mx-auto ">
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:px-[0px] px-[10px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Sales Pitch"
             desc="Create catchy Facebook Ad copies."
@@ -20,7 +20,7 @@ export default function InstantSales() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:px-[0px] px-[10px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Email Writer"
             desc="Create catchy Facebook Ad copies."
@@ -28,7 +28,7 @@ export default function InstantSales() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:px-[0px] px-[10px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Business Proposal"
             desc="Create catchy Facebook Ad copies."
@@ -36,7 +36,7 @@ export default function InstantSales() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:px-[0px] px-[10px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Letter Writer"
             desc="Create catchy Facebook Ad copies."
