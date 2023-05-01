@@ -5,7 +5,7 @@ import InstantHeadings from "./InstantHeadings";
 
 export default function Pricing() {
   return (
-    <div className="sm:mt-[150px] mt-[50px] mb-[800px] sm:px-[0px] px-[20px] ">
+    <div className="sm:mt-[150px] mt-[50px] mb-[600px] sm:px-[0px] px-[20px] ">
       <div>
         <InstantHeadings title="Buy a Plan of your choice" />
       </div>
