@@ -12,7 +12,7 @@ export default function InstantAds() {
         />
       </div>
       <div className="sm:mt-[70px] mt-[20px] grid sm:grid-cols-3 grid-cols-none gap-4 sm:w-[1100px] w-[100%] justify-center max-w-[100%] mx-auto ">
-        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg ">
+        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg mx-auto">
           <AdsCompo
             title="Facebook Ads"
             desc="Create catchy Facebook Ad copies."
@@ -20,7 +20,7 @@ export default function InstantAds() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg ">
+        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg mx-auto">
           <AdsCompo
             title="Google Ads"
             desc="Create catchy Facebook Ad copies."
@@ -28,7 +28,7 @@ export default function InstantAds() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg ">
+        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg mx-auto">
           <AdsCompo
             title="Instagram Ads"
             desc="Create catchy Facebook Ad copies."
@@ -36,7 +36,7 @@ export default function InstantAds() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg">
+        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg mx-auto">
           <AdsCompo
             title="LinkedIn Ads"
             desc="Create catchy Facebook Ad copies."
@@ -44,7 +44,7 @@ export default function InstantAds() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg">
+        <div className="max-w-[100%] w-[358px] my-[5px] sm:my-[0px] linear-bg mx-auto">
           <AdsCompo
             title="Twitter Ads"
             desc="Create catchy Facebook Ad copies."
