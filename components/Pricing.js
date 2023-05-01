@@ -1,16 +1,15 @@
 import React from "react";
 import { CheckCircleOutlined, CheckCircleFilled } from "@ant-design/icons";
 import Link from "next/link";
+import InstantHeadings from "./InstantHeadings";
 
 export default function Pricing() {
   return (
-    <div className="mt-[150px] mb-[50px]">
-      <div className="mx-auto text-center">
-        <h2 className="text-[#232C61] text-[42px] font-extrabold ">
-          Buy a Plan of your choice
-        </h2>
+    <div className="sm:mt-[150px] mt-[50px] mb-[800px] sm:px-[0px] px-[20px] ">
+      <div>
+        <InstantHeadings title="Buy a Plan of your choice" />
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-10 max-w-[100%] w-[60%] mx-auto mt-[90px] ">
+      <div className="flex flex-wrap items-center justify-center sm:gap-10 gap-4 max-w-[100%] sm:w-[60%] w-[100%] mx-auto sm:mt-[70px] mt-[20px] ">
         <div className="border border-[#E5E5E5] rounded-[8px] p-[30px] max-w-[100%] w-[434px] ">
           <div className="flex flex-wrap items-center max-w-[100%] justify-between">
             <div>

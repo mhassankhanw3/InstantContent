@@ -1,19 +1,18 @@
 import React from "react";
 import FeaturesCompo from "./FeaturesCompo";
+import InstantHeadings from "./InstantHeadings";
 
 export default function Features() {
   return (
-    <div className="mt-[160px]">
-      <div className="max-w-[100%] text-center">
-        <h2 className="text-[#232C61] text-[42px] font-extrabold ">
-          How easy it is to use
-        </h2>
-        <p className="text-[#6A6870] text-[26px] w-[520px] mx-auto mt-[20px] ">
-          Cut writing times by 80% so you can focus more on the projects you
-          love.
-        </p>
+    <div className="sm:mt-[160px] mt-[50px] sm:px-[0px] px-[20px] ">
+      <div>
+        <InstantHeadings
+          title="How easy it is to use"
+          desc="Cut writing times by 80% so you can focus more on the projects you
+          love."
+        />
       </div>
-      <div className="mt-[90px] ">
+      <div className="sm:mt-[90px] mt-[10px] ">
         <FeaturesCompo
           head="Step 1"
           title="Enter your post's title and keyword"
@@ -22,7 +21,7 @@ export default function Features() {
           img_2="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/gropu1-2BGuOZLTsZtKFgk.png"
           css="flex flex-row flex-wrap items-center justify-around w-[100%]"
         />
-        <div className="mx-auto max-w-[100%] w-[600px] flex items-center justify-center ">
+        <div className="mx-auto max-w-[100%] sm:block w-[600px] hidden items-center justify-center ">
           <img
             src="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/new-D2mX1nDCJespdLm.png"
             alt=""
@@ -37,27 +36,27 @@ export default function Features() {
           css="flex flex-row-reverse flex-wrap items-center  justify-around w-[100%]"
         />
       </div>
-      <div className="mx-auto max-w-[100%] w-[500px]  flex items-center justify-end ">
+      <div className="mx-auto max-w-[100%] sm:w-[420px] sm:flex hidden items-center sm:justify-end ">
         <img
-          className="w-[240px]"
+          className="sm:w-[220px] w-[240px] "
           src="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/new2-agkxGUZiDcrIjwb.png"
           alt=""
         />
       </div>
-      <div className=" max-w-[100%] mt-[20px] w-[430px]  mx-auto text-center ">
-        <div className="flex items-center justify-center">
+      <div className="mx-auto max-w-[100%] sm:mt-[20px] mt-[30px] w-[430px] sm:text-center ">
+        <div className="flex items-center sm:justify-center">
           <img
             src="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/step-zqyVnKVdwzhti64.png"
             alt=""
           />
-          <h2 className="text-transparent text-[20px] font-semibold bg-clip-text bg-gradient-to-l from-[#08D586] via-[#03C6C2] to-[#02B9EC] ml-[9px]">
+          <h2 className="text-transparent text-[20px] font-semibold font-Mulish bg-clip-text bg-gradient-to-l from-[#08D586] via-[#03C6C2] to-[#02B9EC] ml-[9px]">
             Step 3
           </h2>
         </div>
-        <h3 className="my-[18px] text-[#232C61] text-[23px] font-extrabold ">
+        <h3 className="my-[18px] text-[#232C61] text-[23px] font-extrabold font-Mulish ">
           Edit, polish, and publish
         </h3>
-        <p className="text-[23px] text-[#525252] ">
+        <p className="text-[23px] text-[#525252] font-Mulish ">
           This gives Copy.ai a bit of context on how to best optimize your
           article.
         </p>

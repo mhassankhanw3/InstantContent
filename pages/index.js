@@ -10,6 +10,7 @@ import InstantAcademic from "@/components/InstantAcademic";
 import Pricing from "@/components/Pricing";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import UseCases from "@/components/UseCases";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <UseCases />
       <Features />
       <InstantAds />
       <InstantSocial />

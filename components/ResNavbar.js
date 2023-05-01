@@ -1,18 +1,19 @@
 import React from "react";
-import twitter from "../../public/images/twitter.png";
 import { CloseOutlined } from "@ant-design/icons";
 import Link from "next/link";
-import Image from "next/image";
 
-export default function test() {
+export default function ResNavbar({ setToggle }) {
   return (
-    <div className="max-w-[100%] w-[90%] h-[100vh] p-[30px]   ">
+    <div className="max-w-[100%] w-[90%] bg-white absolute top-0 h-[100vh] p-[30px]   ">
       <div className="flex items-center justify-between ">
         <img
           src="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/logo-rdRGl3IohDB36C0.png"
           alt=""
         />
-        <CloseOutlined className="cursor-pointer font-bold text-[18px]" />
+        <CloseOutlined
+          onClick={() => setToggle(false)}
+          className="cursor-pointer font-bold text-[18px]"
+        />
       </div>
       <div>
         <ul className="flex flex-col mt-[50px]  ">
