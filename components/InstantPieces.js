@@ -4,7 +4,7 @@ import AdsCompo from "./AdsCompo";
 
 export default function InstantPieces() {
   return (
-    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[20px] max-w-full ">
+    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[0px] max-w-full ">
       <div>
         <InstantHeadings
           title="Instant Content helps create Content Pieces"
@@ -12,7 +12,7 @@ export default function InstantPieces() {
         />
       </div>
       <div className="sm:mt-[70px] mt-[20px] max-w-[100%] sm:w-[1100px] w-[100%] grid sm:grid-cols-3 grid-cols-none gap-4 mx-auto ">
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Paragraph"
             desc="Create catchy Facebook Ad copies."
@@ -20,7 +20,7 @@ export default function InstantPieces() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Introduction"
             desc="Create catchy Facebook Ad copies."
@@ -28,7 +28,7 @@ export default function InstantPieces() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Product Description"
             desc="Create catchy Facebook Ad copies."
@@ -36,9 +36,7 @@ export default function InstantPieces() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        {/* </div> */}
-        {/* <div className="sm:my-[0px] flex flex-wrap items-center justify-center max-w-[100%] w-[1200px] mx-auto"> */}
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg col-span-1">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] sm:mx-0 mx-auto linear-bg col-span-1">
           <AdsCompo
             title="Service Description"
             desc="Create catchy Facebook Ad copies."
@@ -46,7 +44,7 @@ export default function InstantPieces() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Blog Writer"
             desc="Create catchy Facebook Ad copies."
@@ -54,9 +52,7 @@ export default function InstantPieces() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        {/* </div> */}
-        {/* <div className="sm:my-[0px]  flex flex-wrap items-center justify-center sm:justify-start max-w-[100%] sm:w-[1000px] p-0 "> */}
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Content Improver"
             desc="Create catchy Facebook Ad copies."
@@ -64,7 +60,7 @@ export default function InstantPieces() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] sm:mx-0 mx-auto linear-bg">
           <AdsCompo
             title="Landing Page Copies"
             desc="Create catchy Facebook Ad copies."
@@ -72,7 +68,6 @@ export default function InstantPieces() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        {/* </div> */}
       </div>
     </div>
   );
