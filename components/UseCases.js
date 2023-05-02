@@ -4,7 +4,7 @@ import PostCards from "./PostCards";
 
 export default function UseCases() {
   return (
-    <div className="px-[20px] sm:px-[0px] mt-[150px] ">
+    <div className=" px-[20px] sm:px-[0px] mt-[150px] ">
       <div>
         <InstantHeadings
           title="Use Cases"

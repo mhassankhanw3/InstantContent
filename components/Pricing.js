@@ -5,12 +5,12 @@ import InstantHeadings from "./InstantHeadings";
 
 export default function Pricing() {
   return (
-    <div className="sm:mt-[150px] mt-[50px] mb-[600px] sm:px-[0px] px-[20px] ">
+    <div className="sm:mt-[150px] mt-[50px] sm:px-[0px] px-[20px] ">
       <div>
         <InstantHeadings title="Buy a Plan of your choice" />
       </div>
-      <div className="flex flex-wrap items-center justify-center sm:gap-10 gap-4 max-w-[100%] sm:w-[60%] w-[100%] mx-auto sm:mt-[70px] mt-[20px] ">
-        <div className="border border-[#E5E5E5] rounded-[8px] p-[30px] max-w-[100%] w-[434px] ">
+      <div className="sm:flex md:flex block flex-wrap items-center justify-center gap-[10px] sm:gap-[10px] md:gap-[10px] sm:px-[10px] md:px-[10px] px-[0px] max-w-[100%] sm:w-[100%] md:w-[100%] w-[100%] mx-auto sm:mt-[70px] mt-[20px] ">
+        <div className="border border-[#E5E5E5] rounded-[8px] p-[30px] max-w-[100%] sm:w-[100%] md:w-[434px] w-[100%] ">
           <div className="flex flex-wrap items-center max-w-[100%] justify-between">
             <div>
               <h3 className="text-[#232C61] font-bold text-[20px] ">
@@ -69,7 +69,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-        <div className="border-2 border-[#03C6C2] rounded-[8px] p-[30px] max-w-[100%] w-[434px] ">
+        <div className="border-2 border-[#03C6C2] rounded-[8px] sm:mt-[10px] md:mt-[0px] mt-[10px] p-[30px] max-w-[100%] sm:w-[100%] md:w-[434px] w-[100%] ">
           <div className="flex flex-wrap items-center max-w-[100%] justify-between">
             <div>
               <h3 className="text-[#232C61] font-bold text-[20px] ">

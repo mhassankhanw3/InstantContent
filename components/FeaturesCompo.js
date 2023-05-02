@@ -10,10 +10,14 @@ export default function FeaturesCompo({
 }) {
   return (
     <div className={`${css} max-w-[100%] w-[900px] mx-auto py-0 `}>
-      <div>
-        <img className="w-[400px]" src={img_2} alt="" />
+      <div className=" ">
+        <img
+          className="max-w-[100%] md:w-[100%] w-[100%] sm:w-[300px] "
+          src={img_2}
+          alt=""
+        />
       </div>
-      <div className=" max-w-[100%] w-[430px] ">
+      <div className=" max-w-[100%] md:w-[430px] w-[350px] md:px-[20px] px-[2px] ">
         <div className="flex items-center justify-start">
           <img src={img_1} alt="" />
           <h2 className="text-transparent text-[20px] font-semibold font-Mulish bg-clip-text bg-gradient-to-l from-[#08D586] via-[#03C6C2] to-[#02B9EC] ml-[9px]">

@@ -11,6 +11,8 @@ import Pricing from "@/components/Pricing";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import UseCases from "@/components/UseCases";
+import Footer from "@/components/Footer";
+import TestDrive from "@/components/TestDrive";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <UseCases />
+      {/* <UseCases /> */}
       <Features />
       <InstantAds />
       <InstantSocial />
@@ -28,6 +30,8 @@ export default function Home() {
       <InstantSeo />
       <InstantAcademic />
       <Pricing />
+      <TestDrive />
+      <Footer />
     </>
   );
 }

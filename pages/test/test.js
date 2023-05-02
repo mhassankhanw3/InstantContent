@@ -1,69 +1,43 @@
 import React from "react";
 import twitter from "../../public/images/twitter.png";
-import { CloseOutlined } from "@ant-design/icons";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import Link from "next/link";
 import Image from "next/image";
+import Steps from "./Steps";
 
 export default function test() {
   return (
-    <div className="max-w-[100%] w-[90%] h-[100vh] p-[30px]   ">
-      <div className="flex items-center justify-between ">
-        <img
-          src="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/logo-rdRGl3IohDB36C0.png"
-          alt=""
-        />
-        <CloseOutlined className="cursor-pointer font-bold text-[18px]" />
+    <>
+      <div className="max-w-[100%] px-[20px] w-[960px] flex flex-wrap flex-row items-start sm:justify-between justify-center mx-auto">
+        <div className="max-w-[100%] md:w-[570px] sm-w-[280px] w-[450px] px-[10px] sm:text-start text-center">
+          <h1 className="sm:text-[42px] text-[34px] text-[#232C61] font-extrabold font-Mulish ">
+            Ad Copy
+          </h1>
+          <p className="sm:my-[30px] my-[15px] sm:text-[26px] text-[#6A6870] text-[22px] ">
+            Instant Content is an AI writer that lets you automatically generate
+            high-quality content for various use cases.
+          </p>
+          <div className="sm:mx-0 mx-auto bg-gradient-to-l from-[#08D586] via-[#03C6C2] to-[#02B9EC] hover:bg-gradient-to-l hover:from-[#02B9EC] hover:via-[#03C6C2] hover:to-[#08D586] hover:bg-[#9ca3af] transition-all text-[18px] cursor-pointer sm:mt-[20px] mt-[30px] py-[10px] text-white rounded-[6px] max-w-[100%] w-[100%] sm:w-[200px] text-center flex items-center justify-center">
+            <Link href="/" legacyBehavior>
+              <a
+                className=" flex items-center justify-center font-bold font-Mulish text-[18px] "
+                href="/"
+              >
+                Get Started <ArrowRightOutlined style={{ marginLeft: "8px" }} />
+              </a>
+            </Link>
+          </div>
+        </div>
+        <div className="sm:block hidden">
+          <img
+            src="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/herosection-e1TPjn9ZPQ6jYQ1.png"
+            alt=""
+          />
+        </div>
       </div>
-      <div>
-        <ul className="flex flex-col mt-[50px]  ">
-          <Link href="/" legacyBehavior>
-            <li className="my-[10px]">
-              <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
-                Home
-              </a>
-            </li>
-          </Link>
-          <Link href="/" legacyBehavior>
-            <li className="my-[10px]">
-              <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
-                Ads
-              </a>
-            </li>
-          </Link>
-          <Link href="/" legacyBehavior>
-            <li className="my-[10px]">
-              <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
-                Content
-              </a>
-            </li>
-          </Link>
-          <Link href="/" legacyBehavior>
-            <li className="my-[10px]">
-              <a className="text-[#6A6870] font-semibold text-[16px]" href="/">
-                Social Media Post
-              </a>
-            </li>
-          </Link>
-        </ul>
+      <div className="mt-[150px]">
+        <Steps />
       </div>
-      <div className="flex flex-col mt-[30px] max-w-[100%] w-[100%] ">
-        <Link href="/" legacyBehavior>
-          <a
-            href="/"
-            className="text-[#6A6870] font-semibold text-[16px] cursor-pointer "
-          >
-            Sign In
-          </a>
-        </Link>
-        <Link href="/" legacyBehavior>
-          <a
-            className="text-[#24BF99] text-[18px] font-semibold border-2 cursor-pointer border-[#24BF99] px-[40px] py-[8px] rounded-[6px] max-w-[100%] w-[100%] text-center mt-[10px] "
-            href="/"
-          >
-            Get Started
-          </a>
-        </Link>
-      </div>
-    </div>
+    </>
   );
 }

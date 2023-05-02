@@ -4,7 +4,7 @@ import InstantHeadings from "./InstantHeadings";
 
 export default function Features() {
   return (
-    <div className="sm:mt-[160px] mt-[50px] sm:px-[0px] px-[20px] ">
+    <div className="sm:mt-[160px] mt-[120px] sm:px-[0px] px-[20px] ">
       <div>
         <InstantHeadings
           title="How easy it is to use"
@@ -19,9 +19,9 @@ export default function Features() {
           desc="This gives Copy.ai a bit of context on how to best optimize your article."
           img_1="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/step-zqyVnKVdwzhti64.png"
           img_2="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/gropu1-2BGuOZLTsZtKFgk.png"
-          css="flex flex-row flex-wrap items-center justify-around w-[100%]"
+          css="flex flex-row flex-wrap items-center justify-evenly w-[100%]"
         />
-        <div className="mx-auto max-w-[100%] sm:block w-[600px] hidden items-center justify-center ">
+        <div className="mx-auto max-w-[100%] sm:block md:w-[600px] w-[400px]  hidden items-center justify-center ">
           <img
             src="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/new-D2mX1nDCJespdLm.png"
             alt=""
@@ -33,7 +33,7 @@ export default function Features() {
           desc="This gives Copy.ai a bit of context on how to best optimize your article."
           img_1="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/step-zqyVnKVdwzhti64.png"
           img_2="https://d5hdtqvs98ocz.cloudfront.net/cdn/add/group2-3NFLN73zgVVy5XA.png"
-          css="flex flex-row-reverse flex-wrap items-center  justify-around w-[100%]"
+          css="flex flex-row-reverse flex-wrap items-center  justify-evenly w-[100%]"
         />
       </div>
       <div className="mx-auto max-w-[100%] sm:w-[420px] sm:flex hidden items-center sm:justify-end ">

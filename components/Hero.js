@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <div className="bubble ">
       <div className="sm:px-[0px] px-[20px] max-w-[100%] sm:w-[550px] mx-auto sm:mt-[80px] mt-[0px] ">
-        <div className="mx-auto sm:px-[0px] px-[10px] max-w-[100%]  text-center mt-[60px] w-[550px] ">
-          <h1 className="text-[#232C61] leading-[50px] text-center sm:text-[42px] text-[38px] font-bold font-Mulish ">
+        <div className="mx-auto sm:px-[0px] px-[10px] max-w-[100%]  text-center mt-[15px] w-[550px] ">
+          <h1 className="text-[#232C61] leading-[44px] text-center sm:text-[42px] text-[38px] font-bold font-Mulish ">
             Generate instant{" "}
             <span className="text-[#24BF99] text-center font-bold font-Mulish ">
               Content

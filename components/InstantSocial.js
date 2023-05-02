@@ -11,8 +11,8 @@ export default function InstantSocial() {
           desc="Cut writing times by 80% so you can focus more on the projects you love."
         />
       </div>
-      <div className="sm:mt-[70px] mt-[20px] grid sm:grid-cols-3 grid-cols-none gap-4 place-items-center justify-center max-w-[100%] sm:w-[1100px] w-[100%] mx-auto">
-        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] linear-bg">
+      <div className="sm:mt-[70px] sm:px-[10px] md:px-[10px] px-[0px] mt-[20px] grid sm:grid-cols-2 md:grid-cols-3 md:gap-4 grid-cols-none gap-4 sm:w-[1120px] w-[100%] justify-center place-items-center max-w-[100%] mx-auto ">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[0px] sm:my-[0px] linear-bg">
           <AdsCompo
             title="Facebook Posts"
             desc="Create catchy Facebook Ad copies."
@@ -20,7 +20,7 @@ export default function InstantSocial() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[0px] sm:my-[0px] linear-bg">
           <AdsCompo
             title="Reddit Posts"
             desc="Create catchy Facebook Ad copies."
@@ -28,7 +28,7 @@ export default function InstantSocial() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[0px] sm:my-[0px] linear-bg">
           <AdsCompo
             title="Instagram Posts"
             desc="Create catchy Facebook Ad copies."
@@ -36,7 +36,7 @@ export default function InstantSocial() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[0px] sm:my-[0px] linear-bg">
           <AdsCompo
             title="LinkedIn Posts"
             desc="Create catchy Facebook Ad copies."
@@ -44,7 +44,7 @@ export default function InstantSocial() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[0px] sm:my-[0px] linear-bg">
           <AdsCompo
             title="Tweets"
             desc="Create catchy Facebook Ad copies."
@@ -52,7 +52,7 @@ export default function InstantSocial() {
             css="bg-gradient-to-r from-[#02B9EC] via-[#03C6C2] to-[#08D586]"
           />
         </div>
-        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[10px] sm:my-[0px] linear-bg">
+        <div className="max-w-full w-[358px] my-[5px] sm:px-[0px] px-[0px] sm:my-[0px] linear-bg">
           <AdsCompo
             title="Tumblr"
             desc="Create catchy Facebook Ad copies."
